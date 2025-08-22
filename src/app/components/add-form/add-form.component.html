@@ -1,0 +1,11 @@
+<button
+  type="button"
+  class="add-form__button"
+  (click)="onButtonClick()"
+  [disabled]="isFormVisible && name.invalid"
+>
+  Add movie
+</button>
+
+<app-input placeholder="Name" [control]="name"  *ngIf="isFormVisible"></app-input>
+

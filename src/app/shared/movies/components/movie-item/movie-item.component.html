@@ -1,0 +1,7 @@
+<app-card>
+  <div card-header>{{ movie.name }}</div>
+  <div card-body>Онлайн: {{ movie.isOnline }}</div>
+  <div card-actions>
+      <button (click)="delete()" class="movie__button">Delete</button>
+  </div>
+</app-card>

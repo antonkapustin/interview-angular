@@ -1,0 +1,2 @@
+<app-input placeholder="Search" [control]="searchFormControl"></app-input>
+<app-movie-list *ngIf="items$ | async as items" [movies]="items"></app-movie-list>

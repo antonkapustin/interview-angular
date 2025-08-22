@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.movie-list__box {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.movie-list__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}

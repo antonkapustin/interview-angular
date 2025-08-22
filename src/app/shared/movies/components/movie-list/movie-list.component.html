@@ -1,0 +1,13 @@
+<div class="movie-list__box">
+    <input type="checkbox" id="allOnline" [formControl]="choseAll">
+    <label for="allOnline">All online</label>
+</div>
+
+<div class="movie-list__list">
+    <app-movie-item *ngFor="let movie of movies" [movie]="movie"></app-movie-item>
+</div>
+
+
+<app-add-form></app-add-form>
+
+
